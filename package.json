@@ -1,0 +1,25 @@
+{
+  "name": "tailflix",
+  "version": "1.0.0",
+  "description": "im sorry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walaura/tailflix.git"
+  },
+  "author": "lau mayhem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walaura/tailflix/issues"
+  },
+  "homepage": "https://github.com/walaura/tailflix#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "keypress": "^0.2.1",
+    "minimist": "^1.2.0",
+    "tail": "^2.0.2"
+  }
+}
