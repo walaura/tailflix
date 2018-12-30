@@ -1,25 +1,28 @@
 {
-  "name": "tailflix",
-  "version": "1.0.0",
-  "description": "im sorry",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/walaura/tailflix.git"
-  },
-  "author": "lau mayhem",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/walaura/tailflix/issues"
-  },
-  "homepage": "https://github.com/walaura/tailflix#readme",
-  "dependencies": {
-    "chalk": "^2.4.1",
-    "keypress": "^0.2.1",
-    "minimist": "^1.2.0",
-    "tail": "^2.0.2"
-  }
+	"name": "tailflix",
+	"version": "1.0.0",
+	"description": "tail but asks you if youre still watching",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"tailflix": "index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/walaura/tailflix.git"
+	},
+	"author": "lau mayhem",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/walaura/tailflix/issues"
+	},
+	"homepage": "https://github.com/walaura/tailflix#readme",
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"keypress": "^0.2.1",
+		"minimist": "^1.2.0",
+		"tail": "^2.0.2"
+	}
 }

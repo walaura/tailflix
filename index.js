@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Tail = require('tail').Tail;
 const chalk = require('chalk');
 const keypress = require('keypress');
