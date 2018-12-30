@@ -1,6 +1,6 @@
 {
 	"name": "tailflix",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "tail but asks you if youre still watching",
 	"main": "index.js",
 	"scripts": {
